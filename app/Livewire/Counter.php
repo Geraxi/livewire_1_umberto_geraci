@@ -25,8 +25,7 @@ class Counter extends Component
     }
 
     public function decrementByNumber($number){
-        $this-> value +=$number;
-
+        $this->value -= $number;
     }
 
     
